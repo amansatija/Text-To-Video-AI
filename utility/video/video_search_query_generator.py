@@ -78,6 +78,9 @@ Timed Captions:{}
     return text
 
 def merge_empty_intervals(segments):
+    # if segments empty or null return segments
+    if len(segments) == 0:
+        return segments
     merged = []
     i = 0
     while i < len(segments):

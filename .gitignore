@@ -2,3 +2,6 @@
 venv/
 __pycache__/
 .DS_Store
+rendered_video.mp4
+audio_tts.wav
+
